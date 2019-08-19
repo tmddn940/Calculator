@@ -43,9 +43,9 @@ public class CalculatorTest {
         assertEquals( 4, result);
     }
     @Test
-    public void test_빼기(){
+    public void test_양수빼기(){
         Calculator calc = new Calculator();
         int result = calc.divide(2,2);
-        assertEquals( 0, result);
+        assertEquals( "두 뺄샘 차이는 1이여야합니다.",0, result);
     }
 }
