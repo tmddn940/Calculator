@@ -36,4 +36,16 @@ public class CalculatorTest {
         int result = calc.divide(10,0);
         assertEquals( 0, result);
     }
+    @Test
+    public void test_곱하기(){
+        Calculator calc = new Calculator();
+        int result = calc.divide(2,2);
+        assertEquals( 4, result);
+    }
+    @Test
+    public void test_빼기(){
+        Calculator calc = new Calculator();
+        int result = calc.divide(2,2);
+        assertEquals( 0, result);
+    }
 }
